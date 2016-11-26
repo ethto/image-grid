@@ -16,10 +16,14 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 img {
   float: left;
   width: 100%;
-  display: inline-block;
+  display: inline;
 }
 
 img:nth-child(2),
@@ -34,7 +38,7 @@ img:nth-child(5) {
   img:nth-child(1),
   img:nth-child(3),
   img:nth-child(4) {
-    display:inline-block;
+    display: inline-block;
   }
 
   img:nth-child(2),
